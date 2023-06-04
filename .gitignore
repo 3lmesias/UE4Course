@@ -131,6 +131,7 @@
 /UE4CodeCompletionFolders.txt
 /UE4CodeLitePreProcessor.txt
 
+
 # Add exceptions for Mac Mono binaries needed to run GitDependencies.exe.
 !/Engine/Binaries/ThirdParty/Mono/Mac/bin/*
 !/Engine/Binaries/ThirdParty/Mono/Mac/etc/mono/config
@@ -227,3 +228,9 @@ Saved/
 
 # Ignore the headers and cpp files in the clang toolchain on Linux
 Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/**
+
+
+
+!/MetalInMotion/Content/**
+
+/MetalInMotion/Content/StarterContent/**
