@@ -3,15 +3,17 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
+#include "GameFramework/GameMode.h"
 #include "MetalInMotionGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class METALINMOTION_API AMetalInMotionGameModeBase : public AGameModeBase
+class METALINMOTION_API AMetalInMotionGameModeBase : public AGameMode
 {
 	GENERATED_BODY()
-	
+
+public:
+	AMetalInMotionGameModeBase();
 };

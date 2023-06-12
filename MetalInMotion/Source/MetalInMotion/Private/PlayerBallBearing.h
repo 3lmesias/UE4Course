@@ -72,4 +72,5 @@ private:
 	// Have the ball bearing perform a dash.
 	void Dash();
 
+	friend class ABallBearingHUD;
 };

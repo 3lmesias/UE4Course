@@ -21,4 +21,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = BallBearing)
 		bool Magnetized = true;
 
+	friend class ABallBearingHUD;
+
 };

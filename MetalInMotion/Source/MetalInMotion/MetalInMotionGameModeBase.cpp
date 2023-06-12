@@ -2,4 +2,11 @@
 
 
 #include "MetalInMotionGameModeBase.h"
+#include "BallBearingHUD.h"
 
+AMetalInMotionGameModeBase::AMetalInMotionGameModeBase() {
+	PrimaryActorTick.bCanEverTick = true;
+
+	HUDClass = ABallBearingHUD::StaticClass();
+	// static class return pointer of UClass
+}
